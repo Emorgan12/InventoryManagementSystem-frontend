@@ -3,50 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
-    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Home</title>
 </head>
 <body>
     <div class="container">
-        <form>
-            <div>
-                <label for="product">Product:</label>
-                <input type="text" id="product" name="product" required>
-            </div>
-            <div>
-                <label for="description">Description:</label>
-                <input type="text" id="description" name="description" required>
-            </div>
-        
-            <div>
-                <label for="category">Category:</label>
-                <select name="category" id="category">
-                    <option value="Electronics">Electronics</option>
-                    <option value="Clothing">Clothing</option>
-                    <option value="Food">Food</option>
-                    <option value="Books">Books</option>
-                </select>
-            </div>
-        
-            <div>
-                <label for="price">Selling Price:</label>
-                <input type="number" id="price" name="price" required>
-            </div>
-            <div>
-                <label for="cost">Cost Price:</label>
-                <input type="number" id="cost" name="cost" required>
-            </div>
-            <div>
-                <label for="purchased">Number Purchased:</label>
-                <input type="number" id="purchased" name="purchased" required>
-            </div>
-            <div>
-                <label for="sold">Number Sold:</label>
-                <input type="number" id="sold" name="sold" required>
-            </div>
-        
-            <button type="submit">Submit</button>
-        </form>
+        <button class="index-btn"><a href="add-product.html">Add New Product</a></button>
+        <button class="index-btn"><a href="sales.html">Update Sales</a></button>
+        <button class="index-btn"><a href="dashboard.html">View Reports</a></button>
     </div>
 </body>
 </html>
