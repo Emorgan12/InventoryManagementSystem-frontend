@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
-    <title>Home</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="container">
-        <button class="index-btn"><a href="add-product.html">Add New Product</a></button>
-        <button class="index-btn"><a href="sales.html">Update Sales</a></button>
-        <button class="index-btn"><a href="dashboard.html">View Reports</a></button>
+        <form action="">
+            <div>
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <button class="add-btn">Login</button>
+        </form>
     </div>
 </body>
 </html>

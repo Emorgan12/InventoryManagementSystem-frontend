@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: cursive;
     font-size: 1.25rem;
-    background-color: #008580;
+    background-color: #008480;
     color: #fff;
 }
 
@@ -24,7 +24,7 @@ input, select{
     padding: 0.5rem;
     margin: .25rem 0;
     border: #005e5a 5px solid;
-    background-color: #008580;
+    background-color: #008480;
     border-radius: 5px;
     width: 100%
 }
@@ -55,5 +55,8 @@ a{
     margin: 3rem 0;
     border: none;
     height: 150px;
+}
 
+form{
+    margin-top: 2rem;
 }
